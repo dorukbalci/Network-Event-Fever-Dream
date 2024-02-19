@@ -14,7 +14,11 @@ public class FieldOfView : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
-    public bool canSeePlayer;
+    [HideInInspector]public bool canSeePlayer;
+
+    public float chaseTimer = 2.0f;
+    private float chaseCounter;
+    [HideInInspector]public bool isChasing = false;
 
     private void Start()
     {
@@ -35,6 +39,24 @@ public class FieldOfView : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (canSeePlayer)
+            chaseCounter += Time.deltaTime;
+        else
+            chaseCounter -= Time.deltaTime;
+
+        if (chaseCounter > chaseTimer)
+            isChasing = true;
+        else
+            isChasing = false;
+
+        if (chaseCounter < 0)
+            chaseCounter = 0f;
+
+        Debug.Log(chaseCounter);
+    }
+
     private void FieldOfViewCheck()
     {
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
@@ -49,15 +71,13 @@ public class FieldOfView : MonoBehaviour
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
-                {
-                    
                     canSeePlayer = true;
-                }
                 else
                     canSeePlayer = false;
             }
             else
                 canSeePlayer = false;
+
         }
         else if (canSeePlayer)
             canSeePlayer = false;
