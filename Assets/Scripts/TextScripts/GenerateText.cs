@@ -7,30 +7,36 @@ using UnityTracery;
 public class GenerateText : MonoBehaviour
 {
     public TextAsset businessmanIntro;
-    
-    
+    public TextAsset playerPos;
+    public TextAsset playerNeg;
+
     public TraceryGrammar Grammar;
-    public TextMeshProUGUI TextOutput;
+    public TextMeshProUGUI bmanText;
+    public TextMeshProUGUI playerPosText;
+    public TextMeshProUGUI playerNegText;
     
     // Start is called before the first frame update
     void OnEnable()
     {
-        UpdateGrammar();
-        GenerateOutput();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        UpdateGrammar(businessmanIntro.text);
+        GenerateOutput(bmanText);
+        
+        UpdateGrammar(playerPos.text);
+        GenerateOutput(playerPosText);
+        
+        UpdateGrammar(playerNeg.text);
+        GenerateOutput(playerNegText);
+        
         
     }
-    public void UpdateGrammar() {
-        Grammar = new TraceryGrammar(businessmanIntro.text);
+
+    public void UpdateGrammar(string grammartext) {
+        Grammar = new TraceryGrammar(grammartext);
     }
     
-    public void GenerateOutput()
+    public void GenerateOutput(TextMeshProUGUI textOutput)
     {
         var output = Grammar.Generate();
-        TextOutput.text = output;
+        textOutput.text = output;
     }
 }
