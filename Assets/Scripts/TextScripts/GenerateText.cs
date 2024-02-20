@@ -26,8 +26,6 @@ public class GenerateText : MonoBehaviour
         
         UpdateGrammar(playerNeg.text);
         GenerateOutput(playerNegText);
-        
-        
     }
 
     public void UpdateGrammar(string grammartext) {
