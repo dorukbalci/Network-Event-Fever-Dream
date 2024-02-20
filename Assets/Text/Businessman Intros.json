@@ -1,0 +1,11 @@
+{
+"origin":["[theObject:#object#][theSell:#selling#]#line#"],
+"line":["Have you ever #considered# the #profound# #implications# of #theSell# #theObject#? It's not just about the #theObject#, you see. It's about #theSell# the idea of #theObject#. It's about #theSell# the #potential# of #theObject#. It's about #theSell#... #end#"],
+"considered":["considered", "pondered", "compared", "studied", "examined"],
+"profound":["profound", "intellectual", "fervent", "astute", "life-changing", "philosophical"],
+"implications":["implications", "connotations", "undertones", "overtones", "hidden meaning"],
+"selling":["selling", "auctioning", "bartering", "trading", "merchandising", "promoting", "advertising"],
+"object":["widgets", "hair clips", "fish", "canned vegetables", "crystals", "pepper shakers", "cult rituals", "happiness", "toilets", "bottled air"],
+"potential":["potential","capability","possibilities","power"],
+"end":[" well, you get the idea", "a dream", "the future","a promise"]
+}
