@@ -1,0 +1,15 @@
+{
+"origin":["Let's discuss #object# ergonomics. Have you made any #adjustments# to your setup lately? I've been #experimenting# different #changes# to find the #perfect# #balance# between #adjectiveCombo#. #outro#"],
+"object":["desk", "chair","monitor","keyboard","stapler","mouse-pad","desk lamp"],
+"adjustments":["adjustments","changes","refinements","adaptions","tweaks","amendments","transformations"],
+"experimenting":["experimenting with","trialing","testing out","exploring","evaluating"],
+"changes":["chair heights","keyboard and mouse position","monitor distance","lumbar supports","cable management solutions","lighting","chair wheels"],
+"perfect":["perfect","flawless","faultless","blissful","idyllic","heavenly","divine","glorious","dreamy","unparalleled"],
+"balance":["balance","equilibrium","uniformity","symmetry","serenity","tranquility"],
+"adjectiveCombo":["#adjective# and #adjective#"],
+"adjective":["comfort", "posture","support","storage","mobility","noise reduction","aesthetics","durability","tradition","durability","function","grace","opulence","craftsmanship","innovation","sophistication"],
+"outro":["#outroAdj# stuff, #outroEnd#."],
+"outroAdj":["Riveting","engrossing","gripping","fascinating","compelling","hypnotic","transfixing"],
+"outroEnd":["I tell you","I assure you","mark my words","rest assured","I promise"]
+}
+

@@ -1,0 +1,13 @@
+{
+"origin":["Last year's #corporate# #activity# was #adjective#. #name# from #department# #stunned# everyone with a rendition of #song# while #being silly#. We still haven't recovered from the #sheer# #audacity# of it all!"],
+"corporate":["corporate","company-wide","company","business"],
+"activity":["karaoke night","bowling tournament","costume party","talent show","office olympics","cook-off","pot-luck","photo booth","game night","craft night"],
+"adjective":["legendary","heroic","mythical","mind-blowing","shocking","horrifying","monstrous","abhorrent","outrageous"],
+"name":["Sheila","Jennifer","Lisa","John","Robert","Ryan","Alyssa","Taylor","Dylan","Charlie","Olivia"],
+"department":["HR","accounts","marketing","finance","legal","operations","sales","customer support","IT"],
+"stunned":["stunned","astounded","astonished","amazed","bewildered","startled"],
+"song":["Bohemian Rhapsody","Ice Ice Baby","Hotel California","Sweet Child o' Mine","Don't Stop Believin","Wonderwall","Livin' on a Prayer","Cotton Eye Jo","The Safety Dance","Mambo No. 5","Barbie Girl","Total Eclipse of the Heart","Love Shack","Never Gonna Give You Up"],
+"being silly":["balancing a stack of paperwork on her head","juggling live staple guns","playing air guitar with a filing cabinet","firing rubber bands in the air like a cowboy","using sticky notes as confetti","throwing paper clips like javelins"],
+"sheer":["sheer","utter","complete","absolute","total","pure","downright","stark","plain","simple"],
+"audacity":["audacity","insolence","gall","brazenness","boldness"]
+}
