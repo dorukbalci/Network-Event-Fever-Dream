@@ -13,12 +13,9 @@ public class NetworkCollide : MonoBehaviour
     {
         if (other.CompareTag("BusinessMan"))
         {
-            Destroy(other.gameObject);
-            
             InitiateDialogue();
+            Destroy(other.gameObject);
         }
-            
-            
     }
 
     private void InitiateDialogue()
@@ -27,7 +24,7 @@ public class NetworkCollide : MonoBehaviour
         UICamera.enabled = true;
         _canvas.SetActive(true);
         playerCamera.enabled = false;
-        
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
         /*GameObject[] bmanlist = GameObject.FindGameObjectsWithTag("BusinessMan");
         foreach (var man in bmanlist)

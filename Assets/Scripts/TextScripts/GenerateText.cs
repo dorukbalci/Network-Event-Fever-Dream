@@ -37,4 +37,7 @@ public class GenerateText : MonoBehaviour
         var output = Grammar.Generate();
         textOutput.text = output;
     }
+    
+    
+    
 }
