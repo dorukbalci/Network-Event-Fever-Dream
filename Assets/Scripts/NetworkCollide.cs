@@ -5,20 +5,27 @@ using UnityEngine;
 
 public class NetworkCollide : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public GameObject _canvas;
+    
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("I have entered");
+        if (other.CompareTag("BusinessMan"))
+        {
+            Destroy(other.gameObject);
+            _canvas.SetActive(true);
+            PauseBusinessMan();
+        }
+            
+            
+    }
+
+    private void PauseBusinessMan()
+    {
+        //Time.timeScale = 0;
+        GameObject[] bmanlist = GameObject.FindGameObjectsWithTag("BusinessMan");
+        foreach (var man in bmanlist)
+        {
+            man.SetActive(false);
+        }
     }
 }

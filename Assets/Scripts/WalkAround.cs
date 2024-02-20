@@ -12,9 +12,11 @@ public class WalkAround : MonoBehaviour
     
     private float targetTimer = 0f;
     private Vector3 walkTarget;
+    private float transY;
 
     private void Start()
     {
+        transY = transform.position.y;
         SetNewTarget();
     }
 
@@ -31,7 +33,7 @@ public class WalkAround : MonoBehaviour
 
     public void SetNewTarget()
     {
-        walkTarget = new Vector3(transform.position.x + Random.Range(-maxDist, maxDist), transform.position.y,
+        walkTarget = new Vector3(transform.position.x + Random.Range(-maxDist, maxDist), transY,
             transform.position.z + Random.Range(-maxDist, maxDist));
     }
 

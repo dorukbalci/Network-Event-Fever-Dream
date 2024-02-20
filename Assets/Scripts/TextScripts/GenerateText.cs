@@ -13,7 +13,7 @@ public class GenerateText : MonoBehaviour
     public TextMeshProUGUI TextOutput;
     
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         UpdateGrammar();
         GenerateOutput();

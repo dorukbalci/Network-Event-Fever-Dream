@@ -19,6 +19,7 @@ public class BusinessManager : MonoBehaviour
         fieldOfView = GetComponent<FieldOfView>();
         chasePlayer = GetComponent<ChasePlayer>();
         walkAround = GetComponent<WalkAround>();
+        
     }
 
     // Update is called once per frame
