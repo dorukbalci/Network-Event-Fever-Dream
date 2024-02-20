@@ -53,8 +53,6 @@ public class FieldOfView : MonoBehaviour
 
         if (chaseCounter < 0)
             chaseCounter = 0f;
-
-        Debug.Log(chaseCounter);
     }
 
     private void FieldOfViewCheck()
