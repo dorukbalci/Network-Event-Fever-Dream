@@ -35,7 +35,6 @@ public class FieldOfView : MonoBehaviour
         {
             yield return wait;
             FieldOfViewCheck();
-            
         }
     }
 
@@ -47,7 +46,10 @@ public class FieldOfView : MonoBehaviour
             chaseCounter -= Time.deltaTime;
 
         if (chaseCounter > chaseTimer)
+        {
             isChasing = true;
+            chaseCounter += 3.0f;
+        }
         else
             isChasing = false;
 
