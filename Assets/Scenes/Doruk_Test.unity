@@ -5527,8 +5527,6 @@ MonoBehaviour:
   - {fileID: 4900000, guid: df80ebffbc49c6341acaa8ed957c9336, type: 3}
   - {fileID: 4900000, guid: 3f601d6d493440443aad1a766a391f5d, type: 3}
   - {fileID: 4900000, guid: 3a64cee26dd4ddf43b1186ca2ed8d296, type: 3}
-  - {fileID: 4900000, guid: f201014ea31c85e469746cc2d71d2aef, type: 3}
-  - {fileID: 4900000, guid: cdd58a3772aa92d44bead54b99a80b77, type: 3}
   playerPoss:
   - {fileID: 4900000, guid: 797105f34bab43f49bb2ed99d32dac23, type: 3}
   playerNegs:
