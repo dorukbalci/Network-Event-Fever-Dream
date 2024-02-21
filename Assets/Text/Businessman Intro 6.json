@@ -1,0 +1,15 @@
+{
+"origin": ["#[pebble:#pebbles#]line#"],
+"line":["#intro.capitalize##this#: a #adjective# #pond# of #businessSpeak#, #disturbed# only by the #ripple# of our networking efforts. Let's be the #pebble#, my #friend#. Let's be the #pebble#."],
+"intro":["picture","imagine","envision","consider","contemplate","visualise"],
+"adjective":["serene","tranquil","peaceful","serene","placid","melow"],
+"this":[" this",""," for a moment"],
+"pond":["pond","lake","loch","bayou","reservoir","lagoon","pool","puddle"],
+"businessSpeak":["profits","revenue","stocks","investments","patents","trademarks"],
+"disturbed":["disturbed","disrupted","joleted","distorted","shattered","severed","damaged","warped","contorted","flustered"],
+"ripple":["ripple","vibrations","pulsation","flutter","motion","tremor","wrinkle","surge","ruffle"],
+"pebbles":["pebbles","rocks","leaves","fish","boulders","pondskaters","raindrops","ducks","swans","geese","wind","sticks"],
+"friend":["friend","pal","buddy","mate","chum","amigo","comrade","partner","BFF"]
+}
+
+
