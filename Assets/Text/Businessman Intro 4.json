@@ -1,0 +1,12 @@
+{
+"origin":["#preposition.capitalize# the #noise# of corporate #mysteriousNoun#, #businessNoun# #verb# #secrets#, #businessNoun# #verb# their #song# of #descNoun#."],
+"preposition":["amidst","among","between","surrounded by","in the thick of","amid","enveloped by"],
+"noise":["cacophony","racket","clamor","noise","dissonance","din","clatter","uproar","turmoil"],
+"mysteriousNoun":["chaos","bedlam","disarray","mayhem","confusion","havoc"],
+"businessNoun":["spreadsheets","numbers","databases","charts","graphs","reports","diagrams","presentations","emails","budgets","files","folders","contracts"],
+"verb":["whisper","sing","murmur","shout","mutter","utter","recite","babble","scream","yell"],
+"secrets":["secrets","mysteries","enigmas","riddles"],
+"song":["song","melody","tune","ballad","chant","hymn","carol","ditty","anthem","tune"],
+"descNoun":["success","despair","misery","sorrow","anguish","grief","agony","victory","triumph",""]
+}
+

@@ -1,0 +1,10 @@
+{
+"origin":["#[#setThing#]line#"],
+"line":["I'm in a bit of a #thing# rut lately. Been alternating between #objects# and #objects#. Any #adjective# #descriptor# #noun# on your end? I'm open to suggestions, as long as they're not too #adventurous#."],
+"setThing": ["[thing:lunch][objects:tuna sandwiches,leftovers,century eggs,unseasoned boiled chicken,instant noodles,pasta with ketchup,mezze platter,salmon sashimi,caviar,blue cheese,duck confit sliders][descriptor:culinary,gastromancy]","[thing:coffee][objects:oat milk,vanilla syrup,arabica beans,decaf,rain water,drip coffee, french press coffee,adding butter,][descriptor:brewology,roastology]","[thing:snack][objects:cashews, perfectly halved walnuts,dried seaweed,pretzels,plain rice cakes,trail mix with only m&m's,mango slices,cheese cubes,granola bars][descriptor:snackology,snackistry]"],
+"adjective":["exciting","big","exhilarating","thrilling","inspiring","gripping"],
+"noun":["adventures","escapades","feats","crusades","incidents"],
+"adventurous":["adventurous","pioneering","daring","bold","exploratory","dynamic"]
+}
+
+
