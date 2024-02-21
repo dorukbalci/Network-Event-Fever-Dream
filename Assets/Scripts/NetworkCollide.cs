@@ -6,8 +6,8 @@ using UnityEngine;
 public class NetworkCollide : MonoBehaviour
 {
     public GameObject _canvas;
-    public Camera UICamera;
-    public Camera playerCamera;
+    public GameObject UICamera;
+    
     
     private void OnTriggerEnter(Collider other)
     {
@@ -20,12 +20,11 @@ public class NetworkCollide : MonoBehaviour
 
     private void InitiateDialogue()
     {
-        Time.timeScale = 0;
-        UICamera.enabled = true;
+        UICamera.SetActive(true);
         _canvas.SetActive(true);
-        playerCamera.enabled = false;
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
+        gameObject.SetActive(false);
         /*GameObject[] bmanlist = GameObject.FindGameObjectsWithTag("BusinessMan");
         foreach (var man in bmanlist)
         {

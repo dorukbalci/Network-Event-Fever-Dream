@@ -36,6 +36,7 @@ public class BusinessManager : MonoBehaviour
             walkAround.WalkTowardsTarget();
         }
     }
+    
 
     void walkAnim()
     {
