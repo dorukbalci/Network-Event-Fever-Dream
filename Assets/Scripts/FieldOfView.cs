@@ -35,7 +35,7 @@ public class FieldOfView : MonoBehaviour
         {
             yield return wait;
             FieldOfViewCheck();
-            Debug.Log(canSeePlayer.ToString());
+            
         }
     }
 
