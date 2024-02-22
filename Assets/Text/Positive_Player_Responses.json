@@ -1,0 +1,7 @@
+{
+"origin":["#intro.capitalize#... #adjective.capitalize#. #excuse.capitalize#..."],
+"intro":["uh, that sounds","that's","huh","hmm","now that's"],
+"adjective":["fascinating","unique","interesting","innovative","intriguing","creative"],
+"excuse":["but, excuse me, I really need to","but sorry, I need to","but if you'll excuse me I really need to","but sorry, I really need","but, I must"]
+}
+

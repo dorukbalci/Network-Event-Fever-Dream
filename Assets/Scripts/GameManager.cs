@@ -8,12 +8,14 @@ public class GameManager : MonoBehaviour
 {
     public GameObject player;
     public GameObject UIcamera;
+    public GameObject dialogueCanvas;
+    public GameObject posCanvas;
     
     public Image playerTimer;
     public Image dialogueTimer;
 
-    public float maxTime = 120f;
-    private float timeLeft;
+    public float maxTime = 5f;
+    float timeLeft;
     public GameObject loseGameCanvas;
 
     private void Start()
@@ -34,6 +36,9 @@ public class GameManager : MonoBehaviour
             player.SetActive(false);
             UIcamera.SetActive(true);
             loseGameCanvas.SetActive(true);
+            dialogueCanvas.SetActive(false);
+            posCanvas.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -8,18 +8,8 @@ public class CollisionActivate : MonoBehaviour
     public GameObject UICamera;
     public GameObject player;
     public GameObject endgameCanvas;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject gameManager;
 
     private void OnCollisionEnter(Collision other)
     {
@@ -28,6 +18,7 @@ public class CollisionActivate : MonoBehaviour
             UICamera.SetActive(true);
             player.SetActive(false);
             endgameCanvas.SetActive(true);
+            gameManager.SetActive(false);
         }
     }
 }
