@@ -26,7 +26,7 @@ public class BusinessManager : MonoBehaviour
     void Update()
     {
         transform.LookAt(_player.transform);
-        if (fieldOfView.isChasing)
+        if (fieldOfView.isChasing && _player.activeInHierarchy)
         {
             chasePlayer.Chase();
             walkAnim();

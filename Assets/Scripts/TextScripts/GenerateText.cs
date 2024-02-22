@@ -39,6 +39,7 @@ public class GenerateText : MonoBehaviour
     public GameObject player;
     public GameObject UICamera;
     public GameObject _canvas;
+    public GameObject podcast;
     
     // Start is called before the first frame update
     void OnEnable()
@@ -108,6 +109,7 @@ public class GenerateText : MonoBehaviour
 
     public void NegativeButtonPress()
     {
+        
         Time.timeScale = 1;
         player.SetActive(true);
         UICamera.SetActive(false);

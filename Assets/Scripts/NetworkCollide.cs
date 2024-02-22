@@ -10,6 +10,7 @@ public class NetworkCollide : MonoBehaviour
     public GameObject UICamera;
     public Image canvasImage;
     
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("BusinessMan"))
@@ -28,10 +29,6 @@ public class NetworkCollide : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
         gameObject.SetActive(false);
-        /*GameObject[] bmanlist = GameObject.FindGameObjectsWithTag("BusinessMan");
-        foreach (var man in bmanlist)
-        {
-            man.SetActive(false);
-        }*/
+        
     }
 }

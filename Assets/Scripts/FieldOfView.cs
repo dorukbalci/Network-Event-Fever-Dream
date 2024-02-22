@@ -20,6 +20,8 @@ public class FieldOfView : MonoBehaviour
     private float chaseCounter;
     [HideInInspector]public bool isChasing = false;
 
+    public float _chaseOffset = 3.0f;
+
     private void Start()
     {
         playerRef = GameObject.FindGameObjectWithTag("Player");
@@ -48,7 +50,7 @@ public class FieldOfView : MonoBehaviour
         if (chaseCounter > chaseTimer)
         {
             isChasing = true;
-            chaseCounter += 3.0f;
+            chaseCounter += _chaseOffset;
         }
         else
             isChasing = false;
@@ -71,7 +73,9 @@ public class FieldOfView : MonoBehaviour
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
-                    canSeePlayer = true;
+                {
+                        canSeePlayer = true;
+                }
                 else
                     canSeePlayer = false;
             }
